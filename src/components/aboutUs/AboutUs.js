@@ -1,7 +1,10 @@
 import "./AboutUs.css";
+
 import AboutPng from "./../../img/gallery/about.png";
 import Founder from "./../../img/gallery/founder-img.png";
 import AboutPng2 from "./../../img/gallery/about2.png";
+
+import CardArea from "./cardArea/CardArea";
 
 function AboutUs() {
   return (
@@ -61,44 +64,7 @@ function AboutUs() {
 
       <div className="services_Cards_arena">
         <div className="card_Area">
-          <div className="card_header">
-            <button className="card_title">
-              Click Automated process starts.
-            </button>
-          </div>
-          <div className="card-body">
-            The automated process starts as soon as your clothes go into the
-            machine. Duis cursus, mi quis viverra ornare.
-          </div>
-
-          <div className="card_header">
-            <button className="card_title">
-              Click Automated process starts.
-            </button>
-          </div>
-          <div className="card-body">
-            The automated process starts as soon as your clothes go into the
-            machine. Duis cursus, mi quis viverra ornare.
-          </div>
-
-          <div className="card_header">
-            <button className="card_title">
-              Click Automated process starts.
-            </button>
-          </div>
-          <div className="card-body">
-            The automated process starts as soon as your clothes go into the
-            machine. Duis cursus, mi quis viverra ornare.
-          </div>
-          <div className="card_header">
-            <button className="card_title">
-              Click Automated process starts.
-            </button>
-          </div>
-          <div className="card-body">
-            The automated process starts as soon as your clothes go into the
-            machine. Duis cursus, mi quis viverra ornare.
-          </div>
+          <CardArea />
         </div>
 
         <div className="card-right-img">

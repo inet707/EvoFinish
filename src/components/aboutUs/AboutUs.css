@@ -185,26 +185,7 @@
   align-items: center;
   margin-inline: 80px;
 }
-.card_title {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  color: #00095e;
-  padding: 20px 15px 20px 0;
-  font-weight: 600;
-  border-bottom: 1px solid #efefef;
-  width: 376px;
-  background-color: #ffffff;
-  text-align: left;
-}
-.card-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 20px 38px 20px;
-  width: 376px;
-  display: none;
-}
+
 .btn_center {
   margin: 40px 0 0 0;
   display: flex;
