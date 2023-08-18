@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+
+.header-area {
+  /* background-color: azure; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  height: 130px;
+}
+#navigation {
+  display: flex;
+  text-align: center;
+  padding: auto;
+  font-size: 16px;
+  font-family: "Josefin Sans" sans-serif;
+}
+
+nav {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #00095e;
+}
+
+.submenu_link {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: blue;
+  border: 1px solid #555;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 05px;
+}
+
+.submenu_link a {
+  padding: 10px 20px;
+}
+
+.submenu:hover .submenu_link {
+  display: block;
+}
+
+.logo {
+  width: 200px;
+  height: 103px;
+}
+nav a {
+  position: relative;
+  transition: all 0.3s;
+  transition: transform 0.1s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+  color: cornflowerblue;
+}
+
+.header-btn {
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-btn:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.header-btn i {
+  margin-right: 5px;
+}
+
+.header-btn {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}

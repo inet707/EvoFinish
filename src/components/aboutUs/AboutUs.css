@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.aboutCompany {
+  display: flex;
+  margin-top: 100px;
+  margin-inline: 100px;
+  justify-content: space-between;
+}
+.aboutCompany_Right {
+  padding-top: 50px;
+  display: block;
+  margin-left: 100px;
+}
+.aboutCompany_Text1 {
+  font-size: 16px;
+  color: #7ea0ff;
+  letter-spacing: 0.8px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin: 0 0 10px;
+}
+.aboutCompany_Text2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #00095e;
+  line-height: 70px;
+  margin: 0 0 22px;
+}
+.aboutCompany_Text3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #677f8b;
+  line-height: 32.4px;
+  margin: 0 0 50px 0;
+  text-align: left;
+}
+.about-btn {
+  display: flex;
+  align-items: center;
+
+  color: white;
+  background-color: #00095e;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 240px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  padding: 30px 40px 30px 30px;
+  text-align: center;
+}
+.about-btn::before {
+  content: "";
+  position: absolute;
+  width: 102%;
+  height: 102%;
+}
+
+.about-btn:hover::before {
+  transform: scaleY(1);
+  z-index: -1;
+}
+
+.about-btn {
+  background: #00095e;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  border-radius: 5px;
+  line-height: 1;
+  line-height: 0;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+}
+
+.about-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 101%;
+  height: 101%;
+  background: #ffc800;
+  z-index: 1;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleY(0);
+  border-radius: 0px;
+}
+
+.customersComment_Area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../../img/gallery/section_bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 585px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 100px;
+  padding: 139px 0 130px 0;
+  color: #ffffff;
+}
+.customersComment {
+  text-align: center;
+  justify-content: center;
+}
+.customerComment_Title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0 0 40px 0;
+}
+.customerComment_Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  margin: 0 0 36px;
+  line-height: 36px;
+  padding: 0 230px;
+
+  text-align: center;
+  flex-wrap: wrap;
+}
+.founder_Area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder_Text_area {
+  padding-left: 20px;
+}
+
+.founder_Text_Name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.founder_Text_Job {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0 0 15px 0;
+}
+.services_Section {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 120px 0 100px 0;
+}
+.services_Cards_arena {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 80px;
+}
+.card_title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #00095e;
+  padding: 20px 15px 20px 0;
+  font-weight: 600;
+  border-bottom: 1px solid #efefef;
+  width: 376px;
+  background-color: #ffffff;
+  text-align: left;
+}
+.card-body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 38px 20px;
+  width: 376px;
+  display: none;
+}
+.btn_center {
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
