@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
 
 .header-area {
-  /* background-color: azure; */
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
   align-items: center;
-  height: 130px;
+  height: 103px;
 }
 #navigation {
   display: flex;
@@ -53,11 +53,12 @@ nav a {
   display: block;
   z-index: 2;
   color: #ffffff;
+  transition: 1s ease-in-out;
 }
 
 .logo {
-  width: 200px;
-  height: 103px;
+  width: 215px;
+  height: 57px;
 }
 nav a {
   position: relative;

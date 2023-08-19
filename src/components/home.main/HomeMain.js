@@ -2,6 +2,8 @@ import "./HomeMain.css";
 import carPng from "./../../img/hero/car.png";
 import MyCarousel from "./../myCarousel/MyCarousel";
 import AboutUs from "./../aboutUs/AboutUs";
+import FooterCarousel from "../fouterCarousel/FooterCarousel";
+import Footer from "./../../components/footer/Footer";
 function HomeMain() {
   return (
     <>
@@ -42,6 +44,8 @@ function HomeMain() {
 
 <MyCarousel/>
 <AboutUs/>
+<FooterCarousel/>
+<Footer/>
 
       </main>
     </>

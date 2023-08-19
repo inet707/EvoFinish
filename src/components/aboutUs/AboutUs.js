@@ -7,6 +7,7 @@ import AboutPng2 from "./../../img/gallery/about2.png";
 import CardArea from "./cardArea/CardArea";
 import VideoArea from "../videoArea/VideoArea";
 
+
 function AboutUs() {
   return (
     <>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.footer_Container {
+  width: 100%;
+  background-color: #00095e;
+  height: 420px;
+  padding-inline: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer_Logo_area {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer_Logo_text,
+.footer_Navigation_area,
+.footer_Navigation_area1,
+.footer_Contact_area {
+  /* padding-right: 21px; */
+  padding-top: 110px;
+}
+
+.footer_Logo_text {
+  width: 400px;
+}
+
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-linkedin,
+.fa-pinterest-square {
+  color: #ffffff;
+  transition: 0.3s ease;
+  vertical-align: middle;
+}
+
+.fa-twitter-square:hover,
+.fa-facebook-square:hover,
+.fa-linkedin:hover,
+.fa-pinterest-square:hover {
+  transform: translateY(-5px);
+  color: #ffcf1f;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.footer_Text {
+  font-size: 16px;
+  color: #8a8fbe;
+  line-height: 29px;
+  margin: 30px 0 21px 0;
+}
+
+.footer_Text {
+  font-size: 16px;
+  color: #8a8fbe;
+  line-height: 29px;
+  margin: 30px 0 21px 0;
+}
+
+.footer-bottom-area {
+  background-color: #00095e;
+  padding-top: 40px;
+  text-align: center;
+  height: 90px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #8a8fbe;
+}
+
+.footer_Container h4 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 0 28px 0;
+}
+
+.footer_Navigation_area li,
+.footer_Navigation_area1 li {
+  font-size: 16px;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+.footer_Navigation_area a,
+.footer_Navigation_area1 a {
+  color: #8a8fbe;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer_Navigation_area a:hover,
+.footer_Navigation_area1 a:hover {
+    color: #FFFFFF;
+    text-decoration: underline; 
+}
+
+.footer_Contact_area p {
+  font-size: 16px;
+  color: #8a8fbe;
+  margin: 0 0 20px 0;
+}
+
+.footer_Contact_area a {
+  font-size: 22px;
+  color: #ffc800;
+}
+
+.color-danger {
+  color: red;
+}
