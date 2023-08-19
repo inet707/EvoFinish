@@ -5,6 +5,7 @@ import Founder from "./../../img/gallery/founder-img.png";
 import AboutPng2 from "./../../img/gallery/about2.png";
 
 import CardArea from "./cardArea/CardArea";
+import VideoArea from "../videoArea/VideoArea";
 
 function AboutUs() {
   return (
@@ -77,6 +78,9 @@ function AboutUs() {
           Book Your Destination
         </a>
       </div>
+<VideoArea/>
+    
+          
     </>
   );
 }

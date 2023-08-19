@@ -13,10 +13,12 @@ function HomeMain() {
                 <p className="text_Lifelong">
                   Lifelong memories just a
                   <div style={{ paddingTop: 20 }}>few seconds away</div>
+                  <div className="yellowBack">i</div>
                 </p>
                 <p className="text_Lets">
                   Let’s start your journey with us, your dream will come true
                 </p>
+                
                 <a href="#!" className="slider-btn">
                   Explore Destinations
                 </a>

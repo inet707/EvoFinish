@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.videoArea {
+    width: 1170px;
+    height: 560px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-inline: 80px;
+    background-image: url("./../../img/hero/azerbaijan.jpg");
+
+  }
+  
+  .video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+    
+  }
+  
+  
+  .videoArea_Text {
+    bottom: 80px;  
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+
+  }
+  

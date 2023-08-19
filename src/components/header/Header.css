@@ -39,10 +39,10 @@ nav a {
   left: 0;
   background-color: blue;
   border: 1px solid #555;
-  color: white;
+  color: white !important;
   list-style-type: none;
   padding: 0;
-  margin: 05px;
+  margin: 5px;
 }
 
 .submenu_link a {
@@ -51,6 +51,8 @@ nav a {
 
 .submenu:hover .submenu_link {
   display: block;
+  z-index: 2;
+  color: #ffffff;
 }
 
 .logo {
@@ -88,4 +90,5 @@ nav a:hover {
   color: white;
   font-size: 16px;
   border-radius: 5px;
+  margin-left: 5px;
 }
