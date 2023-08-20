@@ -1,0 +1,15 @@
+.backGroundImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 170% 100%;
+  background-position: 47%;
+}
+
+.backGroundImage h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}

@@ -40,10 +40,10 @@ function FooterCarousel() {
         <img className="carousel_Footer_Img" src={Instra5} alt="img_5" />
       </div>
       <div className="carousel_Footer">
-        <img className="carousel_Footer_Img" src={Instra2} alt="img_5" />
+        <img className="carousel_Footer_Img" src={Instra2} alt="img_6" />
       </div>
       <div className="carousel_Footer">
-        <img className="carousel_Footer_Img" src={Instra4} alt="img_5" />
+        <img className="carousel_Footer_Img" src={Instra4} alt="img_7" />
       </div>
       
       

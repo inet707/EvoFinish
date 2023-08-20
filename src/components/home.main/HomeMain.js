@@ -3,7 +3,8 @@ import carPng from "./../../img/hero/car.png";
 import MyCarousel from "./../myCarousel/MyCarousel";
 import AboutUs from "./../aboutUs/AboutUs";
 import FooterCarousel from "../fouterCarousel/FooterCarousel";
-import Footer from "./../../components/footer/Footer";
+import UpcomingTextComp from "../upcomingTextComp/UpcomingTextComp";
+
 function HomeMain() {
   return (
     <>
@@ -20,7 +21,7 @@ function HomeMain() {
                 <p className="text_Lets">
                   Let’s start your journey with us, your dream will come true
                 </p>
-                
+
                 <a href="#!" className="slider-btn">
                   Explore Destinations
                 </a>
@@ -30,23 +31,15 @@ function HomeMain() {
         </div>
 
         <div className="animated_Car">
-        <div className="car_slider">
-      <img src={carPng} alt="car" />
-    </div>
+          <div className="car_slider">
+            <img src={carPng} alt="car" />
+          </div>
         </div>
 
-       < div className="afterCarBlock">
-        <div>
-<span className="afterCarBlock_1">Check Our Best Promotional Tour</span>
-<h2 className="afterCarBlock_2">Upcoming Events </h2>
-</div>
-</div>
-
-<MyCarousel/>
-<AboutUs/>
-<FooterCarousel/>
-<Footer/>
-
+        <UpcomingTextComp />
+        <MyCarousel />
+        <AboutUs />
+        <FooterCarousel />
       </main>
     </>
   );

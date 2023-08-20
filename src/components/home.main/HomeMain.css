@@ -31,9 +31,8 @@
   font-size: 60px;
   color: #00095e;
   margin-bottom: 15px;
-  
 }
-.yellowBack{
+.yellowBack {
   background-color: #ffc800;
 
   width: 492px;
@@ -44,7 +43,7 @@
   text-align: center;
   font-size: 13px;
   margin-left: 150px;
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .text_Lets {
   font-size: 20px;
@@ -159,29 +158,6 @@ margin-bottom: 30px;
     transform: translate(-50%, -50%) translateX(-80px);
   }
 }
-.afterCarBlock{
- margin: auto,0;
-  margin-top: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.afterCarBlock_1{
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  width: 130px;
-  color: #7EA0FF;
-}
-.afterCarBlock_2{
-  padding-top: 20px;
-  font-size: 50px;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  font-weight:bold ;
-  color: #00095e;
-}
 
 @keyframes slideUp {
   from {
@@ -202,12 +178,15 @@ margin-bottom: 30px;
     opacity: 1;
   }
 }
-/* Hide elements initially */
-.text_Lifelong, .text_Lets, .slider-btn {
+
+.text_Lifelong,
+.text_Lets,
+.slider-btn {
   opacity: 0;
 }
 
-.text_Lifelong, .text_Lets {
+.text_Lifelong,
+.text_Lets {
   animation: slideUp 1s forwards;
 }
 
@@ -218,7 +197,6 @@ margin-bottom: 30px;
 .text_Lets {
   animation-delay: 0.9s; /* Delay the start of the animation */
 }
-
 
 @keyframes heartbeat {
   0% {
@@ -240,6 +218,6 @@ margin-bottom: 30px;
   }
 }
 .slider-btn {
-  animation: heartbeat 1s  forwards;
+  animation: heartbeat 1s forwards;
   animation-delay: 1.2s;
 }

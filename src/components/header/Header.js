@@ -1,5 +1,6 @@
 import logo from "./../../img/logo/logo.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
@@ -13,17 +14,17 @@ function Header() {
           <nav>
             <ul id="navigation" style={{ marginRight: 30 }}>
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="event.html">Events</a>
+                <Link to="/events">Events</Link>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
                 <li className="submenu">
-                  <a href="#!">Blog</a>
+                  <Link>Blog</Link>
                   <ul className="submenu_link">
                     <li>
                       <a href="blog.html">Blog</a>
@@ -41,7 +42,7 @@ function Header() {
                 </li>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
 
               <li className="button-header">
