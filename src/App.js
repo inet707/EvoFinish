@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/header/Header";
+import HeaderCopy from "./components/headerCopy/HeaderCopy";
 import Footer from "./components/footer/Footer";
 import Home from "./components/pages/homePage/Home";
 import Events from "./components/pages/eventsPage/Events";
@@ -9,7 +9,7 @@ import Contact from "./components/pages/contactPage/Contact";
 function App() {
   return (
     <Router>
-      <Header />
+      <HeaderCopy/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />

@@ -1,7 +1,17 @@
+
+
+import "./HeaderCopy.css";
 import logo from "./../../img/logo/logo.png";
-import "./Header.css";
+import burger from "./../../img/hero/menu-bar.png";
+
+
+import React, { useState } from 'react';
+
 import { Link } from "react-router-dom";
-function Header() {
+
+function HeaderCopy() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <div className="header-area">
@@ -10,8 +20,16 @@ function Header() {
             <img style={{ paddingLeft: 20 }} src={logo} alt="logo" />
           </a>
         </div>
-        <div className="main-menu">
+        <div className={`menu-toggle ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+         <button type="click" className="menuBurger-Btn">
+          <div>MENU</div>
+           <img src={burger} alt="burger"></img>
+          
+          </button>
+        </div>
+        <div className={`main-menu ${menuOpen ? 'open' : ''}`}>
           <nav>
+  
             <ul id="navigation" style={{ marginRight: 30 }}>
               <li>
                 <Link to="/">Home</Link>
@@ -59,4 +77,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderCopy;

@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+
+.header-area {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  height: 103px;
+}
+#navigation {
+  display: flex;
+  text-align: center;
+  padding: auto;
+  font-size: 16px;
+  font-family: "Josefin Sans" sans-serif;
+}
+
+nav {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #00095e;
+}
+
+.submenu_link {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: blue;
+  border: 1px solid #555;
+  color: white !important;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px;
+}
+
+.submenu_link a {
+  padding: 10px 20px;
+}
+
+.submenu:hover .submenu_link {
+  display: block;
+  z-index: 2;
+  color: #ffffff;
+  transition: 1s ease-in-out;
+}
+
+.logo {
+  width: 215px;
+  height: 57px;
+}
+nav a {
+  position: relative;
+  transition: all 0.3s;
+  transition: transform 0.1s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+  color: cornflowerblue;
+}
+
+.header-btn {
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-btn:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.header-btn i {
+  margin-right: 5px;
+}
+
+.header-btn {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.menu-toggle {
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  cursor: pointer;
+  width: 25px;
+  justify-content: space-between;
+}
+
+.menu-toggle div {
+  width: 25px;
+  height: 3px;
+  background: #00095e;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 575px) {
+  .main-menu {
+    display: none; /* Initially hidden */
+    top: 50%;
+    z-index: 1;
+    
+    background-color: #4c4c4c;
+    flex-direction: column;
+  }
+
+  .main-menu.open {
+    display: flex; /* Display when menu is open */
+  }
+
+  #navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: flex; /* Display burger menu */
+  }
+  .header-area{
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  .menuBurger-Btn{
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    width: 40px;
+    height: 30px;
+font-size: 16px;
+margin-top:20px ;
+
+  }
+  .menu-toggle{
+    width: 100%;
+  }
+}
