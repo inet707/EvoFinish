@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
 .contactRow {
   margin-top: 60px;
   height: 700px;
@@ -33,19 +34,23 @@
   border: 1px solid black;
   margin-bottom: 46px;
 }
-.button {
+.button-contactForm {
   height: 59px;
   width: 141px;
   background-color: white;
-  color: #7ae0ff;
+  color: #7EA0FF;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  border: 2px solid #7ae0ff;
+  border: 2px solid #7EA0FF;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-family: 'Josefin Sans',sans-serif;
+
 }
 
-.button:hover {
-  background-color: #7ae0ff;
+.button-contactForm:hover {
+  background-color: #7EA0FF;
   color: white;
 }
 
@@ -53,26 +58,49 @@
   display: block;
 }
 
-@media (max-width: 768px) {
-  .contactRow {
-    flex-direction: column;
-  }
 
-  .form_Area {
-    order: 1;
-  }
+.contact-title-area{
+  margin-left: 100px;
+}
 
-  .contact-title-area,
-  .form_Area {
-    width: 100%;
-  }
+.contact-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 27px;
+  color: #00095e;
+  font-weight: 600;
+  line-height: 32px;
+}
+.form-Textarea-control{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-top: 25px;
 
-  textarea.form-control,
-  .input_area-12sm .form-control {
-    width: 100%;
-  }
+}
+.form-control-input, .form-control-lgInput {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 7px;
+}
 
-  .input_area-6sm .form-control-valid {
-    width: 48%;
-  }
+.media-body h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2A2A2A;
+  line-height: 22px;
+}
+
+.media-body p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:#8A8A8A;
+  font-weight: 500;
+  padding-top: 3px;
+
+}
+.media-body {
+  margin-top: 15px;
+  padding-bottom: 20px;
 }

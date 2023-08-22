@@ -15,7 +15,7 @@ function Contact() {
         <div className="form_Area">
           <form
             className="contact_form"
-            action="contact_process.php"
+            
             method="post"
             id="contactForm"
             novalidate="novalidate"
@@ -27,10 +27,7 @@ function Contact() {
                     className="form-Textarea-control"
                     name="message"
                     id="message"
-                    cols="30"
-                    rows="9"
-                    onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter Message'"
+                   
                     placeholder=" Enter Message"
                   ></textarea>
                 </div>
@@ -77,9 +74,9 @@ function Contact() {
             <div className="form-group_Btn">
               <button
                 type="submit"
-                className="button button-contactForm boxed-btn"
+                className="button-contactForm"
               >
-                Send
+                SEND
               </button>
             </div>
           </form>
@@ -108,8 +105,8 @@ function Contact() {
               <i className="ti-email"></i>
             </span>
             <div className="media-body">
-              <h3>
-                <p className="__cf_email__"> support@colorlib.com </p>
+              <h3
+                 className="cf_email"> support@colorlib.com 
               </h3>
               <p>Send us your query anytime!</p>
             </div>
