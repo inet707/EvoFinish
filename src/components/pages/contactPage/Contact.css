@@ -104,3 +104,19 @@
   margin-top: 15px;
   padding-bottom: 20px;
 }
+
+.media_contact-info{
+  display: flex;
+
+  
+}
+.contact-info__icon{
+  padding-top: 2px;
+}
+
+
+
+.ti-email, .ti-tablet,.ti-home {
+  margin: 15px;
+  font-size: 50px;
+}
