@@ -1,33 +1,26 @@
-import React from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
-import "./MapsContact.css"
+import React from "react";
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import "./MapsContact.css";
 
 const containerStyle = {
-  width: '1200px',
-  height: '505px',
-  marginTop:'80px',
-  margin:'auto',
-
+  width: "1200px",
+  height: "80vh",
+  marginTop:"50px",
+  marginInline: "auto",
 };
-
 
 
 function MapContact() {
   return (
-    
-    <LoadScript className='mapsContact'
-      googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY" // Gerçek API anahtarınızla değiştirin
+    <LoadScript 
+      className="mapsContact"
+      googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY"
     >
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        zoom={10}
-      >
-   Buttonwood, California.
-Rosemead, CA 91770
+      <GoogleMap  mapContainerStyle={containerStyle} zoom={10}>
+        Buttonwood, California. Rosemead, CA 91770
       </GoogleMap>
     </LoadScript>
   );
 }
 
 export default React.memo(MapContact);
-

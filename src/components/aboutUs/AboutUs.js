@@ -70,7 +70,7 @@ function AboutUs() {
         </div>
 
         <div className="card-right-img">
-          <img src={AboutPng2} alt="" />
+          <img src={AboutPng2} alt="services img" />
         </div>
       </div>
 

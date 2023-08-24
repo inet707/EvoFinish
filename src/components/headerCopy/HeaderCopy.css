@@ -13,7 +13,9 @@
   text-align: center;
   padding: auto;
   font-size: 16px;
-  font-family: "Josefin Sans" sans-serif;
+  font-family: "Josefin Sans" ,sans-serif;
+  font-weight: 600;
+  
 }
 
 nav {
@@ -94,7 +96,7 @@ nav a:hover {
   margin-left: 5px;
 }
 .menu-toggle {
-  display: none; /* Initially hidden */
+  display: none; 
   flex-direction: column;
   cursor: pointer;
   width: 25px;
@@ -107,46 +109,50 @@ nav a:hover {
   background: #00095e;
 }
 
-
 @media only screen and (min-width: 576px) and (max-width: 767px),
-(max-width: 575px) {
+  (max-width: 575px) {
   .main-menu {
-    display: none; /* Initially hidden */
+    display: none;
     top: 50%;
     z-index: 1;
-    
+
     background-color: #4c4c4c;
     flex-direction: column;
   }
 
   .main-menu.open {
-    display: flex; /* Display when menu is open */
+    display: block;
+  }
+
+  .submenu_toggle.open {
+    display: block;
   }
 
   #navigation {
+    flex-direction: block;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
 
   .menu-toggle {
-    display: flex; /* Display burger menu */
+    display: block; 
   }
-  .header-area{
+  .header-area {
+    margin-top: 20px;
     display: block;
     position: relative;
     z-index: 2;
   }
-  .menuBurger-Btn{
+  .menuBurger-Btn {
     background-color: black;
     color: #ffffff;
     display: flex;
     width: 40px;
     height: 30px;
-font-size: 16px;
-margin-top:20px ;
-
+    font-size: 16px;
+    margin-top: 20px;
   }
-  .menu-toggle{
+  .menu-toggle {
     width: 100%;
   }
 }

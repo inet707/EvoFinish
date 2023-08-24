@@ -27,7 +27,7 @@
 }
 .text_Lifelong {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 60px;
   color: #00095e;
   margin-bottom: 15px;
@@ -57,7 +57,7 @@
   color: white;
   background-color: #00095e;
   text-decoration: none;
-  border-radius: 5px;
+
   margin-top: 4rem;
   font-size: 16px;
   font-weight: bold;
@@ -191,11 +191,11 @@
 }
 
 .text_Lifelong {
-  animation-delay: 0.6s; /* Delay the start of the animation */
+  animation-delay: 0.6s;
 }
 
 .text_Lets {
-  animation-delay: 0.9s; /* Delay the start of the animation */
+  animation-delay: 0.9s;
 }
 
 @keyframes heartbeat {
@@ -220,4 +220,52 @@
 .slider-btn {
   animation: heartbeat 1s forwards;
   animation-delay: 1.2s;
+}
+@media only screen and (min-width: 520px) and (max-width: 767px){
+   
+  .text_Lifelong {
+    font-size: 40px;
+  }
+  .yellowBack {
+    width: 335px;
+    margin-left: 230px;
+    margin-top: -17px;
+    height: 08px;
+    font-size: 5px;
+  }
+  .slider-btn {
+    width: 197px;
+    height: 56px;
+    font-size: 13px;
+    padding: 26px 10px 25px 10px;
+  }
+  .animated_Car {
+    width: 100%;
+    height: 390px;
+    margin-top: 0px;
+  }
+
+  .car_slider img {
+    width: 340px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    margin-left: 30%;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate(-50%, -50%) translateX(0);
+    }
+    50% {
+      transform: translate(-50%, -50%) translateX(40px);
+    }
+    100% {
+      transform: translate(-50%, -50%) translateX(-40px);
+    }
+  }
+  .text_Lets{
+    font-size: 16px;
+  }
 }

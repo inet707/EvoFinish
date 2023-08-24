@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 
 function HeaderCopy() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [submenuIsOpen, setsubmenuIsOpen] =useState(false);
 
   return (
     <>
@@ -42,19 +43,19 @@ function HeaderCopy() {
               </li>
               
                 <li className="submenu">
-                  <Link>Blog</Link>
+                  <Link className={`submenu_toggle ${submenuIsOpen ? 'open' : ''}`} onClick={()=>setsubmenuIsOpen(submenuIsOpen)}>Blog</Link>
                   <ul className="submenu_link">
                     <li>
-                      <a href="blog.html">Blog</a>
+                      <Link to="/blog details">Blog</Link>
                     </li>
                     <li>
-                      <a href="events_details.html">Events Details</a>
+                      <Link to="/events details">Events Details</Link>
                     </li>
                     <li>
-                      <a href="blog_details.html">Blog Details</a>
+                      <Link to="/blog details">Blog Details</Link>
                     </li>
                     <li>
-                      <a href="elements.html">Element</a>
+                      <Link tp="/elements details">Element</Link>
                     </li>
                   </ul>
                 </li>

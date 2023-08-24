@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,14 +11,29 @@ import Instra5 from "./../../img/gallery/instra5.jpg";
 
 
 function FooterCarousel() {
+  const [slidesToShow, setSlidesToShow] = useState(5);
+  useEffect(() => {
+    const updateSlidesToShow = () => {
+      if (window.innerWidth <= 767) {
+        setSlidesToShow(2);
+      } else {
+        setSlidesToShow(5);
+      }
+    };
+
+    updateSlidesToShow();
+    window.addEventListener("resize", updateSlidesToShow);
+
+    return () => window.removeEventListener("resize", updateSlidesToShow);
+  }, []);
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5, // 3 şəkli eyni vaxtda göstər
+    slidesToShow: slidesToShow, 
     slidesToScroll: 1,
-    autoplay: true, // Avtomatik hərəkat
-    autoplaySpeed:3000 , // 1 saniyədən bir hərəkat
+    autoplay: true, 
+    autoplaySpeed:3000 , 
   };
 
   return (

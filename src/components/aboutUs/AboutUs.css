@@ -5,8 +5,9 @@
 .aboutCompany {
   display: flex;
   margin-top: 100px;
-  margin-inline: 100px;
-  justify-content: space-between;
+  margin-inline: auto;
+  
+
 }
 .aboutCompany_Right {
   padding-top: 50px;
@@ -193,3 +194,68 @@
   align-items: center;
 }
 
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+  .aboutCompany {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutCompany_Right {
+    margin: 0;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+  }
+  .aboutCompany_Text1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .aboutCompany_Text2 {
+    font-size: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutCompany_Text3{
+    display: flex;
+    justify-content: center;
+    margin-inline: 10%;
+    text-align: left;
+    font-size: 16px;
+    
+  }
+  .about-btn{
+    margin-left: 10%;
+  }
+  .customersComment_Area{
+    height: 420px;
+  padding: 40px 0 0 0;
+  }
+  .customerComment_Title{
+    font-size: 40px;
+  }
+  .customerComment_Text{
+    padding: 0;
+    font-size: 18px;
+    padding-inline:5%;
+    text-align: center;
+  }
+  .services_Cards_arena{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-right-img{
+    margin-top:20px;
+    width: 480px;
+    height: auto;
+  }
+}

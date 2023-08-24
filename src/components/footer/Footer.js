@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import Footerlogo from "./../../img/logo/logo2_footer.png";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
   return (
@@ -30,23 +32,24 @@ function Footer() {
               </a>
             </div>
           </div>
+          <div class="footer_Navigation-Flex">
           <div className="footer_Navigation_area">
             <h4>Navigation</h4>
             <ul>
               <li>
-                <a href="#!">Home</a>
+              <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#!">About</a>
+              <Link to="/events">Events</Link>
               </li>
               <li>
-                <a href="#!">Services</a>
+              <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#!">Blog</a>
+              <Link to="/">Blog</Link>
               </li>
               <li>
-                <a href="#!">Contact</a>
+              <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -66,6 +69,7 @@ function Footer() {
                 <a href="#!">Meghrong</a>
               </li>
             </ul>
+          </div>
           </div>
           <div className="footer_Contact_area">
             <h4>Contact Us</h4>

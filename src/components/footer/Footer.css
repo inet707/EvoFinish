@@ -18,7 +18,6 @@
 .footer_Navigation_area,
 .footer_Navigation_area1,
 .footer_Contact_area {
-  /* padding-right: 21px; */
   padding-top: 110px;
 }
 
@@ -100,8 +99,8 @@
 
 .footer_Navigation_area a:hover,
 .footer_Navigation_area1 a:hover {
-    color: #FFFFFF;
-    text-decoration: underline; 
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .footer_Contact_area p {
@@ -117,4 +116,35 @@
 
 .color-danger {
   color: red;
+}
+.footer_Navigation-Flex {
+  display: flex;
+}
+
+.footer_Navigation_area {
+  padding-right: 150px;
+}
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+  .footer_Logo_area {
+    display: block;
+  }
+  .footer_Container {
+    height: 900px;
+  }
+
+  .footer_Navigation_Flex {
+    padding-inline: 200px;
+    display: inline-flex;
+    padding-top: 40px;
+  }
+
+  .footer_Navigation_area {
+    padding-right: 160px;
+  }
+  .footer_Contact_area{
+    padding-top: 40px;
+  }
+  .footer_Logo_area{
+    padding-top: 0;
+  }
 }

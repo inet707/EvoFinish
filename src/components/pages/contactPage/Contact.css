@@ -38,19 +38,18 @@
   height: 59px;
   width: 141px;
   background-color: white;
-  color: #7EA0FF;
+  color: #7ea0ff;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  border: 2px solid #7EA0FF;
+  border: 2px solid #7ea0ff;
   font-size: 13px;
   letter-spacing: 3px;
-  font-family: 'Josefin Sans',sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .button-contactForm:hover {
-  background-color: #7EA0FF;
+  background-color: #7ea0ff;
   color: white;
 }
 
@@ -58,65 +57,96 @@
   display: block;
 }
 
-
-.contact-title-area{
+.contact-title-area {
   margin-left: 100px;
 }
 
-.contact-title{
-  font-family: 'Josefin Sans', sans-serif;
+.contact-title {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 27px;
   color: #00095e;
   font-weight: 600;
   line-height: 32px;
 }
-.form-Textarea-control{
-  font-family: 'Roboto', sans-serif;
+.form-Textarea-control {
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   padding-top: 10px;
   padding-left: 20px;
   margin-top: 25px;
-
 }
-.form-control-input, .form-control-lgInput {
+.form-control-input,
+.form-control-lgInput {
   font-size: 13px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-left: 7px;
 }
 
-.media-body h3{
-  font-family: 'Josefin Sans', sans-serif;
+.media-body h3 {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #2A2A2A;
+  color: #2a2a2a;
   line-height: 22px;
 }
 
 .media-body p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color:#8A8A8A;
+  color: #8a8a8a;
   font-weight: 500;
   padding-top: 3px;
-
 }
 .media-body {
   margin-top: 15px;
   padding-bottom: 20px;
 }
 
-.media_contact-info{
+.media_contact-info {
   display: flex;
-
-  
 }
-.contact-info__icon{
+.contact-info__icon {
   padding-top: 2px;
 }
 
-
-
-.ti-email, .ti-tablet,.ti-home {
+.ti-email,
+.ti-tablet,
+.ti-home {
   margin: 15px;
   font-size: 50px;
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+  .contact_Form_col {
+    display: block;
+  }
+  .form-Textarea-control {
+    height: 170px;
+    width: 450px;
+    margin-inline: 10%;
+    padding-left: 0;
+  }
+  .input_area-6sm {
+    width: 450px;
+  }
+  .form-control-input {
+    width: 200px;
+    margin-left: 30%;
+  }
+
+  .form-control-lgInput {
+    width: 450px;
+    margin-left: 11%;
+  }
+  .button-contactForm{
+    margin-left: 11%;
+  }
+  .contact_Media_area{
+    margin-left: 11%;
+    margin-top: 30px;
+    height: 500px;
+  }
+  .contactRow{
+    margin-bottom: 120px;
+  }
 }

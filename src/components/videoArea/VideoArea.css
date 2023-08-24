@@ -6,7 +6,7 @@
     border-radius: 20px;
     position: relative;
     margin-top: 50px;
-    margin-inline: 80px;
+    margin-inline: auto;
     background-image: url("./../../img/hero/azerbaijan.jpg");
 
   }
@@ -36,3 +36,11 @@
 
   }
   
+  @media only screen and (min-width: 520px) and (max-width: 767px){
+    .videoArea{
+      width: 500px;
+      height: 350px;
+      background-size: cover;
+      
+    }
+  }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,14 +11,29 @@ import Services5 from "./../../img/gallery/services5.jpg";
 import Services6 from "./../../img/gallery/services6.jpg";
 
 function MyCarousel() {
+  const [slidesToShow, setSlidesToShow] = useState(3);
+  useEffect(() => {
+    const updateSlidesToShow = () => {
+      if (window.innerWidth <= 767) {
+        setSlidesToShow(1);
+      } else {
+        setSlidesToShow(3);
+      }
+    };
+
+    updateSlidesToShow();
+    window.addEventListener("resize", updateSlidesToShow);
+
+    return () => window.removeEventListener("resize", updateSlidesToShow);
+  }, []);
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // 3 şəkli eyni vaxtda göstər
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
-    autoplay: true, // Avtomatik hərəkat
-    autoplaySpeed: 3000, // 1 saniyədən bir hərəkat
+    autoplay: true,
+    autoplaySpeed: 3000,
   };
 
   return (
