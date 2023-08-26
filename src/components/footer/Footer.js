@@ -3,7 +3,6 @@ import "./Footer.css";
 import Footerlogo from "./../../img/logo/logo2_footer.png";
 import { Link } from "react-router-dom";
 
-
 function Footer() {
   return (
     <footer>
@@ -32,44 +31,44 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div class="footer_Navigation-Flex">
-          <div className="footer_Navigation_area">
-            <h4>Navigation</h4>
-            <ul>
-              <li>
-              <Link to="/">Home</Link>
-              </li>
-              <li>
-              <Link to="/events">Events</Link>
-              </li>
-              <li>
-              <Link to="/about">About</Link>
-              </li>
-              <li>
-              <Link to="/">Blog</Link>
-              </li>
-              <li>
-              <Link to="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="footer_Navigation_area1">
-            <h4>Services</h4>
-            <ul>
-              <li>
-                <a href="#!">Blackforest</a>
-              </li>
-              <li>
-                <a href="#!">Bodhubon</a>
-              </li>
-              <li>
-                <a href="#!">Rongdhonu</a>
-              </li>
-              <li>
-                <a href="#!">Meghrong</a>
-              </li>
-            </ul>
-          </div>
+          <div className="footer_Navigation-Flex">
+            <div className="footer_Navigation_area">
+              <h4>Navigation</h4>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/events">Events</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/">Blog</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="footer_Navigation_area1">
+              <h4>Services</h4>
+              <ul>
+                <li>
+                  <a href="#!">Blackforest</a>
+                </li>
+                <li>
+                  <a href="#!">Bodhubon</a>
+                </li>
+                <li>
+                  <a href="#!">Rongdhonu</a>
+                </li>
+                <li>
+                  <a href="#!">Meghrong</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="footer_Contact_area">
             <h4>Contact Us</h4>

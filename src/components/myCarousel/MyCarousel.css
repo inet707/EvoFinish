@@ -1,3 +1,7 @@
+.slick-slider button {
+  display: none !important;
+}
+
 .carousel_Card {
   margin-top: 50px;
   height: 390px;

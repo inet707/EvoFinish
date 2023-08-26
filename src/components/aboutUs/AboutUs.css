@@ -6,8 +6,6 @@
   display: flex;
   margin-top: 100px;
   margin-inline: auto;
-  
-
 }
 .aboutCompany_Right {
   padding-top: 50px;
@@ -223,38 +221,37 @@
     justify-content: center;
   }
 
-  .aboutCompany_Text3{
+  .aboutCompany_Text3 {
     display: flex;
     justify-content: center;
     margin-inline: 10%;
     text-align: left;
     font-size: 16px;
-    
   }
-  .about-btn{
+  .about-btn {
     margin-left: 10%;
   }
-  .customersComment_Area{
+  .customersComment_Area {
     height: 420px;
-  padding: 40px 0 0 0;
+    padding: 40px 0 0 0;
   }
-  .customerComment_Title{
+  .customerComment_Title {
     font-size: 40px;
   }
-  .customerComment_Text{
+  .customerComment_Text {
     padding: 0;
     font-size: 18px;
-    padding-inline:5%;
+    padding-inline: 5%;
     text-align: center;
   }
-  .services_Cards_arena{
+  .services_Cards_arena {
     display: block;
     flex-direction: column;
     align-items: center;
   }
 
-  .card-right-img{
-    margin-top:20px;
+  .card-right-img {
+    margin-top: 20px;
     width: 480px;
     height: auto;
   }

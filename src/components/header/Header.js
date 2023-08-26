@@ -22,25 +22,25 @@ function Header() {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              
-                <li className="submenu">
-                  <Link>Blog</Link>
-                  <ul className="submenu_link">
-                    <li>
-                      <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                      <a href="events_details.html">Events Details</a>
-                    </li>
-                    <li>
-                      <a href="blog_details.html">Blog Details</a>
-                    </li>
-                    <li>
-                      <a href="elements.html">Element</a>
-                    </li>
-                  </ul>
-                </li>
-              
+
+              <li className="submenu">
+                <Link>Blog</Link>
+                <ul className="submenu_link">
+                  <li>
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="events_details.html">Events Details</a>
+                  </li>
+                  <li>
+                    <a href="blog_details.html">Blog Details</a>
+                  </li>
+                  <li>
+                    <a href="elements.html">Element</a>
+                  </li>
+                </ul>
+              </li>
+
               <li>
                 <Link to="/contact">Contact</Link>
               </li>

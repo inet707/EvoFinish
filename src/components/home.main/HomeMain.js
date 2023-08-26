@@ -31,7 +31,7 @@ function HomeMain() {
           </div>
         </div>
 
-        <ScrollUpButton/>
+        <ScrollUpButton />
 
         <div className="animated_Car">
           <div className="car_slider">

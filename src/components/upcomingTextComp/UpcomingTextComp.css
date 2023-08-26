@@ -22,7 +22,7 @@
   color: #00095e;
 }
 
-@media only screen and (min-width: 520px) and (max-width: 767px){
+@media only screen and (min-width: 520px) and (max-width: 767px) {
   .afterCarBlock_1 {
     font-size: 16px;
   }

@@ -13,9 +13,8 @@
   text-align: center;
   padding: auto;
   font-size: 16px;
-  font-family: "Josefin Sans" ,sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
-  
 }
 
 nav {
@@ -96,7 +95,7 @@ nav a:hover {
   margin-left: 5px;
 }
 .menu-toggle {
-  display: none; 
+  display: none;
   flex-direction: column;
   cursor: pointer;
   width: 25px;
@@ -135,7 +134,7 @@ nav a:hover {
   }
 
   .menu-toggle {
-    display: block; 
+    display: block;
   }
   .header-area {
     margin-top: 20px;

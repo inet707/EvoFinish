@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./ScrollUpButton.css";
+import ScrollToTop from "./../../img/hero/arrow.png";
 
 const ScrollUpButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -41,7 +42,8 @@ const ScrollUpButton = () => {
           zIndex: 1000,
         }}
       >
-        Yukarı
+        <img src={ScrollToTop} alt="" />
+        TO TOP
       </button>
     )
   );

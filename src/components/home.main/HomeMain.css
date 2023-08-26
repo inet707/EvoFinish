@@ -221,8 +221,7 @@
   animation: heartbeat 1s forwards;
   animation-delay: 1.2s;
 }
-@media only screen and (min-width: 520px) and (max-width: 767px){
-   
+@media only screen and (min-width: 520px) and (max-width: 767px) {
   .text_Lifelong {
     font-size: 40px;
   }
@@ -265,7 +264,7 @@
       transform: translate(-50%, -50%) translateX(-40px);
     }
   }
-  .text_Lets{
+  .text_Lets {
     font-size: 16px;
   }
 }
