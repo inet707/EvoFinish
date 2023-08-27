@@ -8,6 +8,7 @@ import Single_Blog_5 from "./../../img/blog/single/single_blog_5.jpg";
 
 import BlogcardsCopy from "./BlogcardsCopy";
 import BlogPagination from "./BlogPagination";
+import BlogRightSide from "./../blogRightSide/BlogRightSide";
 
 function Blogcards() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -86,7 +87,7 @@ function Blogcards() {
     },
     // {
     //   imgSrc: Single_Blog_5,
-    //   alt: "Single_Blog_10",
+    //   alt="": "Single_Blog_10",
     //   title: " Tik-Tok inks pact for new 40-storey office",
     //   content:
     //     "That dominion stars lights dominion divide years for fourth have dont stars is that he earth it first without heaven in place seed it second morning saying.",
@@ -113,6 +114,10 @@ function Blogcards() {
           onPageChange={(page) => setCurrentPage(page)}
         />
       </div>
+      <div className="blog_right_sidebar">
+<BlogRightSide/>
+      </div>
+      
     </section>
   );
 }
