@@ -1,10 +1,10 @@
 import "./HomeMain.css";
 import carPng from "./../../img/hero/car.png";
-import MyCarousel from "./../myCarousel/MyCarousel";
+// import MyCarousel from "./../myCarousel/MyCarousel";
 import AboutUs from "./../aboutUs/AboutUs";
 import FooterCarousel from "../fouterCarousel/FooterCarousel";
 import UpcomingTextComp from "../upcomingTextComp/UpcomingTextComp";
-import ScrollUpButton from "./../scroLUpButton/ScrollUpButton";
+
 
 function HomeMain() {
   return (
@@ -31,7 +31,7 @@ function HomeMain() {
           </div>
         </div>
 
-        <ScrollUpButton />
+       
 
         <div className="animated_Car">
           <div className="car_slider">
@@ -40,7 +40,7 @@ function HomeMain() {
         </div>
 
         <UpcomingTextComp />
-        <MyCarousel />
+        {/* <MyCarousel /> */}
         <AboutUs />
         <FooterCarousel />
       </main>

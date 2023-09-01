@@ -1,6 +1,8 @@
 
+
 .blog_right_sidebar {
     padding-left: 20px;
+    /* min-width: 28.62vw; */
     width: 391px;
     /* padding: 30px 0 30px 30px; */
     display: block;
@@ -165,4 +167,22 @@ background-color: #7EA0FF;
   .media-body p{
     font-size: 14px !important;
     font-family: "Roboto", sans-serif;
+  }
+
+
+  @media only screen and (min-width: 992px) and (max-width:1199px){
+    .blog_right_sidebar{
+      width: 290px;
+    }
+    .input-group input {
+      width: 140px;
+    }
+  }
+  @media only screen and (min-width:800px) and (max-width:991px){
+    .blog_right_sidebar{
+      width: 690px;
+    }
+    .input-group input {
+      width: 540px;
+    }
   }

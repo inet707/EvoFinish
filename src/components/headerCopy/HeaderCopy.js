@@ -1,6 +1,6 @@
 import "./HeaderCopy.css";
 import logo from "./../../img/logo/logo.png";
-import burger from "./../../img/hero/menu-bar.png";
+// import burger from "./../../img/hero/menu-bar.png";
 
 import React, { useState } from "react";
 
@@ -23,8 +23,14 @@ function HeaderCopy() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <button type="click" className="menuBurger-Btn">
-            <div>MENU</div>
-            <img src={burger} alt="burger"></img>
+            <div className="menuBurger_lines">
+            <div >--</div>
+            <div >--</div>
+            <div >--</div>
+            </div>
+            MENU
+           
+            {/* <img src={burger} alt="burger"></img> */}
           </button>
         </div>
         <div className={`main-menu ${menuOpen ? "open" : ""}`}>

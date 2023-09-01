@@ -14,7 +14,7 @@ function FooterCarousel() {
   const [slidesToShow, setSlidesToShow] = useState(5);
   useEffect(() => {
     const updateSlidesToShow = () => {
-      if (window.innerWidth <= 767) {
+      if (window.innerWidth <= 800) {
         setSlidesToShow(2);
       } else {
         setSlidesToShow(5);

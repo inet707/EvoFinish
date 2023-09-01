@@ -8,6 +8,7 @@
   align-items: center;
   height: 103px;
 }
+
 #navigation {
   display: flex;
   text-align: center;
@@ -38,16 +39,19 @@ nav a {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: blue;
+  background-color: #00095e;
   border: 1px solid #555;
   color: white !important;
   list-style-type: none;
   padding: 0;
   margin: 5px;
+  width: 150px;
+  text-align: left;
 }
 
 .submenu_link a {
   padding: 10px 20px;
+  color: white !important;
 }
 
 .submenu:hover .submenu_link {
@@ -104,23 +108,23 @@ nav a:hover {
 
 .menu-toggle div {
   width: 25px;
-  height: 3px;
-  background: #00095e;
+  height: 1px;
+  color: #ffffff !important;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px),
-  (max-width: 575px) {
+@media only screen and (max-width: 992px) {
   .main-menu {
     display: none;
     top: 50%;
     z-index: 1;
-
     background-color: #4c4c4c;
     flex-direction: column;
+    padding-bottom: 20px;
   }
 
   .main-menu.open {
     display: block;
+    color: #ffffff;
   }
 
   .submenu_toggle.open {
@@ -131,27 +135,43 @@ nav a:hover {
     flex-direction: block;
     flex-direction: column;
     align-items: start;
+    color: #ffffff;
   }
 
   .menu-toggle {
     display: block;
+    background-color: black;
+    color: #ffffff;
   }
   .header-area {
     margin-top: 20px;
     display: block;
     position: relative;
     z-index: 2;
+    color: #ffffff;
   }
   .menuBurger-Btn {
-    background-color: black;
-    color: #ffffff;
+    background-color: red;
+    color: #ffffff !important;
     display: flex;
-    width: 40px;
+    width: 80px;
     height: 30px;
     font-size: 16px;
     margin-top: 20px;
+    display: flex;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    padding-top: 3px;
   }
+
   .menu-toggle {
     width: 100%;
+  }
+  nav a {
+    color: #ffffff;
+  }
+
+  .menuBurger_lines {
+    color: #ffffff;
   }
 }

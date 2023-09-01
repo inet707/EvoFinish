@@ -58,7 +58,7 @@
 }
 
 .contact-title-area {
-  margin-left: 100px;
+  margin-left: 7.32vw;
 }
 
 .contact-title {
@@ -114,9 +114,11 @@
 .ti-home {
   margin: 15px;
   font-size: 50px;
+ 
 }
 
-@media only screen and (min-width: 520px) and (max-width: 767px) {
+
+@media only screen and (min-width: 575px) and (max-width: 800px) {
   .contact_Form_col {
     display: block;
   }
@@ -143,6 +145,55 @@
   }
   .contact_Media_area {
     margin-left: 11%;
+    margin-top: 30px;
+    height: 500px;
+  }
+  .contactRow {
+    margin-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+  
+  .form-Textarea-control {
+    width: 610px;
+  }
+  .input_area-6sm{
+    width: 610px;
+  }
+  .form-control-lgInput{
+    width: 610px;
+  }
+  .form-control-input{
+    width: 290px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 991px)
+{
+  .contact_Form_col{
+    display: block;
+   
+    margin-inline: 12vw;
+    
+  }
+  .form-Textarea-control {
+    width: 690px;
+  }
+  .input_area-6sm{
+    width: 690px;
+  }
+  .form-control-lgInput{
+    width: 690px;
+  }
+  .form-control-input{
+    width: 290px;
+  }
+  .contact-title-area{
+    margin-left: 12vw;
+  }
+  .contact_Media_area {
+    
     margin-top: 30px;
     height: 500px;
   }

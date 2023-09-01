@@ -7,7 +7,8 @@
     position: relative;
     margin-top: 50px;
     margin-inline: auto;
-    background-image: url("./../../img/hero/azerbaijan.jpg");
+    background-image: url("./../../img/hero/video-bg.jpg");
+    background-repeat: no-repeat;
 
   }
   
@@ -41,6 +42,15 @@
       width: 500px;
       height: 350px;
       background-size: cover;
+      max-width: 80%;
       
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1198px),
+  (max-width: 1198px) {
+    .videoArea{
+      max-width: 80%;
+      background-size: cover;
     }
   }

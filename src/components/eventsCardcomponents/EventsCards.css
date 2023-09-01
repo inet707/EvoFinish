@@ -2,8 +2,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  margin-inline: 50px;
+  /* margin-inline: 50px; */
+  justify-content: space-between;
+  padding: 0 15px;
+  max-width: 100%;
 }
+
 
 .eventsCards {
   margin-top: 50px;
@@ -14,17 +18,36 @@
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(199, 193, 193, 0.5), 0 3px 10px rgba(156, 151, 151, 0.5);
   overflow: hidden;
   margin-bottom: 60px;
+  margin-inline: 0;
+
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px)
+ {
+  .eventsCards_Wrapper {
+     max-width: 100%; 
+   
+  }
+
+
+  .eventsCards {
+    max-width: 316px;
+ width: 100%;
+    
+  }
 }
 
 .eventsCards_Img {
-  height: 250px;
+  height: 239px;
   width: 360px;
   overflow: hidden;
   transition: transform 0.5s ease-in-out;
 }
+
+
 
 .eventsCards_Textarea {
   padding: 30px 20px 30px 23px;

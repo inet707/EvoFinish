@@ -59,7 +59,6 @@ function AboutUs() {
       </div>
 
       <div className="services_Section">
-        <span className="aboutCompany_Text1">FAQ</span>
         <h2 className="aboutCompany_Text2">Full range of travel service</h2>
       </div>
 

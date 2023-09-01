@@ -5,7 +5,8 @@
 .aboutCompany {
   display: flex;
   margin-top: 100px;
-  margin-inline: auto;
+  justify-content: center;
+ margin-inline: 5vw;
 }
 .aboutCompany_Right {
   padding-top: 50px;
@@ -68,6 +69,7 @@
   height: 102%;
 }
 
+
 .about-btn:hover::before {
   transform: scaleY(1);
   z-index: -1;
@@ -107,6 +109,10 @@
   transform: scaleY(0);
   border-radius: 0px;
 }
+.aboutCompany_Img img {
+width:42vw;
+}
+
 
 .customersComment_Area {
   display: flex;
@@ -182,7 +188,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-inline: 80px;
+  margin-inline: 6vw;
+}
+
+.card-right-img img {
+width: 40vw;
 }
 
 .btn_center {
@@ -249,10 +259,24 @@
     flex-direction: column;
     align-items: center;
   }
-
-  .card-right-img {
-    margin-top: 20px;
-    width: 480px;
-    height: auto;
-  }
+  
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1198px),
+(max-width:900px){
+  .customerComment_Text {
+    font-size: 20px;
+    align-items: center; 
+  }
+ 
+  .founder_Area{
+    max-width: 100vw;
+  }
+  
+}
+@media only screen and (min-width: 800px) and (max-width: 991px),
+(max-width:990px){
+
+
+}
+

@@ -1,5 +1,24 @@
 
 .carousel_Footer{
     margin-top: 150px;
-    height: 270px;
+    
+}
+
+.carousel_Footer img {
+    width: 22vw;
+}
+@media only screen and (min-width: 575px) and (max-width: 800px),
+(max-width:575px) {
+    .carousel_Footer img{
+   width: 50vw;
+   height: auto;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 0;
+   padding-right: 0;
+    }
+    .carousel_Footer{
+        padding-bottom: -1px;
+        margin-bottom: -1px;
+    }
 }

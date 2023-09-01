@@ -14,7 +14,7 @@ function MyCarousel() {
   const [slidesToShow, setSlidesToShow] = useState(3);
   useEffect(() => {
     const updateSlidesToShow = () => {
-      if (window.innerWidth <= 767) {
+      if (window.innerWidth <= 800) {
         setSlidesToShow(1);
       } else {
         setSlidesToShow(3);
